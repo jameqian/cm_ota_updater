@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+            android:title="ROM" />
+
+    <Preference
+            android:key="device_pref"
+            android:title="Device"
+            android:summary="" />
+
+    <Preference
+            android:key="cm_version_pref"
+            android:title="CyanogenMod Version"
+            android:summary="" />
+
+    <Preference
+            android:key="cm_type_pref"
+            android:title="CyanogenMod Build Type"
+            android:summary="" />
+
+    <Preference
+            android:key="ota_support_pref"
+            android:title="OTA Support"
+            android:summary="" />
+
+    <Preference
+            android:key="ota_pref"
+            android:title="Check for new version"/>
+</PreferenceScreen>
